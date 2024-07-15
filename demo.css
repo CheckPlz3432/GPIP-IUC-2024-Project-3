@@ -136,7 +136,6 @@ body {
   .gallery-cell {
     width: 125px;
     height: 200px;
-    margin-right: 1110px;
     background: #8C8;
     counter-increment: gallery-cell;
   }
