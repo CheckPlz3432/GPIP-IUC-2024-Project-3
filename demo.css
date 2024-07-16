@@ -17,16 +17,20 @@ body {
   .user-card {
     border-radius: 15px;
     width: 425px;
-    height: 450px;
+    height: 425px;
     background-image: linear-gradient(#63b3f9, #d5e4f1);
     margin: 20px;
     font-family: "Lucida Console", "Courier New", monospace;
     text-align: center;
   }
+
+  /* .user-card:hover {
+    transform: scale(1.05);  (150% zoom - Note: if the zoom is too large, it will go outside of the viewport)
+  } */
   
   .user-img {
     max-width: 80%;
-    height: 150px;
+    height: 120px;
     object-fit: cover;
     background-color: white;
   }
@@ -128,21 +132,20 @@ body {
     height: 45px;
   }
 
-  
+  /*
   .gallery {
     background-color: red;
   }
+
+  */
+
+  /* Gallery Carousel CSS */
   
   .gallery-cell {
-    width: 125px;
+    width: auto;
     height: 200px;
     background: #8C8;
-    counter-increment: gallery-cell;
-  }
-
-  .gallery-img {
-    width: 100px;
-    height: auto;
+    /* counter-increment: gallery-cell; */
   }
   
   /* cell number */
