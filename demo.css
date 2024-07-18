@@ -7,7 +7,7 @@ body {
     margin: 20px 0;
   }
   
-  #author-container {
+  #card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
