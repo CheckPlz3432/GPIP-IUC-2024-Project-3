@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ site.title }}</title>
+</head>
+<body>
+    {% include header.html color="red" %}
+    <h1 style="color: lightcoral">Wrapper</h1>
+    {{ content }}
+    <h1 style="color: lightcoral">Wrapper</h1>
+</body>
+</html>
+
+<!-- 
+
+Code for home.html
+
+{% for post in site.pages %}
+<li><a href="{{ post.url }}">{{post.title}}</a></li>
+    {{ post.url }} <br>
+{% endfor %} 
+
+
+{% for person in site.data.people %}
+    {{ person.name }}, {{ person.occupation}} <br>
+
+{% endfor %}
+
+ {% for file in site.static_files %}
+    {{ file.basename }} <br>
+{% endfor %}
+
+-->
